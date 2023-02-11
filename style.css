@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  background-color: #d8f8ff;
+}
+
+.container-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+  width: 90%;
+  padding: 1.3rem;
+  background-image: linear-gradient(to right, #a6f0f1, #eda9d8);
+  margin: 2rem auto;
+}
+
+.num_button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.num_button input {
+  font-size: 1.2rem;
+}
+
+.start-counter {
+  font-size: 1.2rem;
+  border-radius: 50px;
+  padding: 8px;
+}
+
+.container-two {
+  height: 50vh;
+  width: 60%;
+  background-color: #555;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nums-box {
+  height: 100px;
+  width: 100px;
+  background-color: #555;
+  overflow: hidden;
+  position: relative;
+}
+
+.nums-box p {
+  text-align: center;
+  line-height: 80px;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  border-top: 2px solid black;
+  background-color: #fff;
+}
+
+.next {
+  position: absolute;
+  top: 100px;
+}
+
+p {
+  font-size: 2rem;
+}
+
+p.animate {
+  transition: all 0.5s;
+  top: 0px;
+}
